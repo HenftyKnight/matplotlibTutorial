@@ -9,13 +9,17 @@ Other Types of Plots
 Beyond this Tutorial
 References
 
+
 <h1> Introduction </h1>
 Matplotlib is a multiplatform data visualization library built on NumPy arrays, and
 designed to work with the broader SciPy stack. It was conceived by John Hunter in
-2002, originally as a patch to IPython for enabling interactive MATLAB-style plotting
-via gnuplot from the IPython command line.
+2002, originally as a patch to IPython for enabling interactive MATLAB-style plotting via gnuplot from the IPython command line.
 
 matplotlib is probably the single most used Python package for 2D-graphics. It provides both a very quick way to visualize data from Python and publication-quality figures in many formats.
+
+Where is the Matplotlib Codebase?
+The source code for Matplotlib is located at this github repository 
+(https://github.com/matplotlib/matplotlib
 
 <h2> pyplot </h2>
 matplotlib.pyplot is a collection of command style functions that make Matplotlib work like MATLAB. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc.
