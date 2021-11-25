@@ -19,7 +19,7 @@ matplotlib is probably the single most used Python package for 2D-graphics. It p
 
 Where is the Matplotlib Codebase?
 The source code for Matplotlib is located at this github repository 
-(https://github.com/matplotlib/matplotlib
+(https://github.com/matplotlib/matplotlib)
 
 <h2> pyplot </h2>
 matplotlib.pyplot is a collection of command style functions that make Matplotlib work like MATLAB. Each pyplot function makes some change to a figure: e.g., creates a figure, creates a plotting area in a figure, plots some lines in a plotting area, decorates the plot with labels, etc.
