@@ -3,6 +3,7 @@
 At first make sure you have pip or some other pre-built packages installed!
 
 pip works on Unix/Linux, OS X, and Windows.
+
 pip comes with Python (no need to install it seperately)
 
 **Install Latest Version PIP**    
@@ -20,7 +21,8 @@ When you are interested in contributing to matplotlib development, running the l
 ```
 
 **Mac OS**
-    new terminal APP
+
+new terminal APP
 ```
 curl -O https://bootstrap.pypa.io/get-pip.py python get-pip.py pip install matplotlib
 ```
@@ -32,21 +34,28 @@ pip install ipython[notebook]
 ```
 **Linux**
 
-    Use the package manager of your choice:
+Use the package manager of your choice:
         
-        Fedora / Redhat:
-            sudo yum install python-matplotlib
-        Debian / Ubuntu:
-            sudo apt-get install python-matplotlib
-        Arch:
-            sudo pacman -S python-matplotlib
-    
-    Usually the package should be called something like python-pip
+Fedora / Redhat:
+        
+```
+sudo yum install python-matplotlib
+```
+Debian / Ubuntu:
+```
+sudo apt-get install python-matplotlib
+```
+Arch:
+```
+sudo pacman -S python-matplotlib
+```    
+
+Usually the package should be called something like **python-pip**
 
 **Windows**
 
 Install Python -> 
-[python release](https://www.python.org/downloads/windows/) 
+[Python](https://www.python.org/downloads/windows/) 
 
     Use one of the scipy-stack compatible Python distributions such as Python(x,y), Enthought Canopy, or Continuum Anaconda.
 
@@ -58,23 +67,28 @@ Install Python ->
     
     Append Path under System Variables with the Path of the Scripts directory, the default is C:\Python(x,y)\Scripts
 
-**install matplotlib**
+**Install Matplotlib**
 
-    Sidenote: 
-        If you haven't installed Ipython yet, then you can install it via pip install ipython[notebook] (installs with dependencies for Ipython notebooks)
+Sidenote: 
 
-    pip install matplotlib
-    or 
-    use the precompiled installers for installing matplotlib, which is recommended
+    If you haven't installed Ipython yet, then you can install it via pip install ipython[notebook] (installs with dependencies for Ipython notebooks)
+
+```
+pip install matplotlib
+```
+
+or 
 **Precompiled Installer for matplotlib**
 
-[matplotlib](https://matplotlib.org/stable/)
+Use the precompiled installers for installing [matplotlib](https://matplotlib.org/stable/), which is recommended.
 
-**check your installation**
+
+**Check your installation**
 
 ```
 python3 -c 'import matplotlib; print(matplotlib.__version__, matplotlib.__file__)'
-
+```
+```
 python2.7 -c 'import matplotlib; print(matplotlib.__version__, matplotlib.__file__)'
 
 ```
