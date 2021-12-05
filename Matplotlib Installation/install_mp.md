@@ -82,6 +82,8 @@ or
 
 Use the precompiled installers for installing [matplotlib](https://matplotlib.org/stable/), which is recommended.
 
+**JYPYTER NOTEBOOK**
+**CONDA**
 
 **Check your installation**
 
