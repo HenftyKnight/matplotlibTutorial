@@ -60,5 +60,5 @@ for i, text in enumerate(
         fc="k",
     )
 
-plt.savefig("Figures/zorder.png")
+# plt.savefig("Figures/zorder.png")
 plt.show()
